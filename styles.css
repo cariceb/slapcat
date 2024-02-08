@@ -1,0 +1,54 @@
+body{
+    font-family: book antiqua;
+    text-align: center;
+    background-color: #FF97B7;
+
+}
+
+
+.titel{
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+   
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E05780;
+   
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+#board div {
+   
+    width: 180px; 
+    height: 180px;
+    background-image: url("img/circle.png");
+    background-size: cover;
+    
+}
+
+
+#board div img {
+    
+    width: 100px;
+    height: 100px;
+/* hierdoor kunnen de img niet versleept worden  */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.reload{
+    border: none;
+    background-color: #FF97B7;
+    cursor: pointer;
+}
